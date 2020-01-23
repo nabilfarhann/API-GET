@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>API GET Testing</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="includes/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="root"></div>
+
+    <div class="container">
+        <hr>
+        <div class="form-group">
+            <label class="control-label">Select Partner</label>
+            <select class="form-control" id="partner-dropdown" name="partner-list"></select>
+        </div>
+
+        <!-- Table -->
+        <div class="card card--has-table">
+            <div class="card__header text-center">
+                <h4 id="partner-count">Please Select Partner From List</h4>
+            </div>
+            <div class="card__content">
+                <div class="table-responsive">
+                    <table class="table table--lg partner-table" name="table-list" id="table-list">
+
+                    </table>
+                </div>
+            </div>
+            <hr>
+            <div id="datediv" class="form-group text-center"></div>
+        </div>
+        <!-- Table / End -->
+
+    </div>
+
+    <script src="includes/scripts.js"></script>
+
+</body>
+
+</html>

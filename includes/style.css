@@ -1,0 +1,105 @@
+/* Card
+/* ------------------------- */
+
+.card {
+  border: 1px solid #e4e7ed;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+.card__content {
+  padding: 24px 24px;
+}
+
+.card--has-table>.card__content {
+  padding: 0;
+}
+
+.card--has-table>.card__content .table {
+  margin-bottom: 0;
+}
+
+.card__header~.card__header::before {
+  border-radius: 0;
+}
+
+.card__header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 6px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #38a9ff;
+  border-radius: 3px 0 0 0;
+}
+
+.card__header>h4 {
+  font-size: 16px;
+  line-height: 1.2em;
+  letter-spacing: -0.02em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+@media (max-width: 767px) {
+  .table-responsive {
+    border: none;
+    margin-bottom: 0;
+  }
+}
+
+/* Tables
+/* ------------------------- */
+
+table {
+  background-color: transparent;
+  color: #9a9da2;
+}
+
+.table--lg>thead>tr>th, .table--lg>thead>tr>td, .table--lg>tbody>tr>th, .table--lg>tbody>tr>td, .table--lg>tfoot>tr>th, .table--lg>tfoot>tr>td {
+  padding: 8.5px;
+}
+
+@media (min-width: 992px) {
+  .table--lg>thead>tr>th, .table--lg>thead>tr>td, .table--lg>tbody>tr>th, .table--lg>tbody>tr>td, .table--lg>tfoot>tr>th, .table--lg>tfoot>tr>td {
+    padding: 17px 12px;
+  }
+}
+
+/* TPartnerTable */
+
+@media (min-width: 992px) {
+  .partner-table thead>tr>th, .partner-table tbody>tr>td {
+    padding-left: 23px;
+  }
+}
+
+.partner-table__title {
+  color: #31404b;
+}
+
+.partner-table__date {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.partner-table__header {
+  text-transform: uppercase;
+  background-color: #f5f7f9;
+}
+
+@media (min-width: 992px) {
+  .partner-table__header {
+    padding-left: 23px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  td {
+    font-size: 14px;
+  }
+}
