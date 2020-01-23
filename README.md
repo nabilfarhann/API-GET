@@ -1,7 +1,5 @@
 # API-GET
 ## :computer:  Homework-Assessment  :computer:
-
-## Description
 GET API with Node.js and Express and output to HTML
 
 ***Instruction on usage:***
