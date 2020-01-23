@@ -1,9 +1,5 @@
 # API-GET
 ## Homework-Assessment
-
-:star2::star2: **Don't forget to give this repo a star!** :star2::star2:
-
-## Description
 GET API with Node.js and Express and output to HTML
 
 ***Instruction on usage:***
